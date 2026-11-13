@@ -1,4 +1,5 @@
 def add_task(tasks, name):
+    """Add a non-empty task name to the task list."""
     if name == "":
         print("Invalid task name")
         return tasks
